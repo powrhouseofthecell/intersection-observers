@@ -1,0 +1,51 @@
+* {
+   padding: 2rem;
+}
+
+body {
+   padding-top: 40rem;
+}
+
+.first {
+   opacity: 0;
+   background-color: lightcoral;
+   color: white;
+}
+
+.second {
+   opacity: 0;
+   background-color: brown;
+   color: white;
+}
+
+.flex1 {
+   display: flex;
+}
+
+.flex2 {
+   display: flex;
+}
+
+@keyframes op {
+   from {
+      opacity: 0;
+      transform: translate(-100px);
+   }
+
+   to {
+      opacity: 1;
+      transform: translate(0);
+   }
+}
+
+@keyframes op2 {
+   from {
+      opacity: 0;
+      transform: translate(100px);
+   }
+
+   to {
+      opacity: 1;
+      transform: translate(0);
+   }
+}
